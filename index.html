@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Your Name | Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header>
+    <nav class="navbar">
+      <div class="logo">YourName</div>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+    <section class="hero">
+      <h1>Hello, I'm <span>Your Name</span></h1>
+      <p>Web Developer • Designer • Creator</p>
+      <a href="#projects" class="btn">View My Work</a>
+    </section>
+  </header>
+
+  <section id="about" class="about section">
+    <h2>About Me</h2>
+    <div class="about-content">
+      <img src="assets/profile.jpg" alt="Your Photo" />
+      <div>
+        <p>Hi! I'm a passionate web developer with experience in building responsive and modern websites. I love turning ideas into reality through code.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="projects" class="projects section">
+    <h2>Projects</h2>
+    <div class="project-grid">
+      <div class="project-card">
+        <img src="assets/project1.jpg" alt="Project 1" />
+        <h3>Project One</h3>
+        <p>Brief description of the project. Technologies used: HTML, CSS, JS.</p>
+        <a href="#" class="btn">View</a>
+      </div>
+      <div class="project-card">
+        <img src="assets/project2.jpg" alt="Project 2" />
+        <h3>Project Two</h3>
+        <p>Brief description of the project. Technologies used: React, Node.js.</p>
+        <a href="#" class="btn">View</a>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="contact section">
+    <h2>Contact Me</h2>
+    <form action="https://formspree.io/f/your-form-id" method="POST">
+      <input type="text" name="name" placeholder="Your Name" required />
+      <input type="email" name="_replyto" placeholder="Your Email" required />
+      <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+      <button type="submit" class="btn">Send</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Your Name. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
